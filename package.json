@@ -4,7 +4,8 @@
   "description": "Learning to use Github with Jack's lesson plan",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "watch": "nodemon -e js,html,css -w ."
   },
   "keywords": [],
   "author": "",
